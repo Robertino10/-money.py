@@ -121,5 +121,23 @@ def convert_money(value, currency):
 
 
 
+Use as normal model fields
+
+from djmoney.models.fields import MoneyField
+from django.db import models
+
+
+class BankAccount(models.Model):
+    balance = MoneyField(max_digits=10, decimal_places=2, default_currency='USD')
+Searching for models with money fields:
+
+from djmoney.money import Money
+
+
+account = BankAccount.objects.create(balance=Money(10, 'USD'))
+swissAccount = BankAccount.objects.create(balance=Money(10, 'CHF'))
+
+BankAccount.objects.filter(balance__gt=Money(1, 'USD'))
+# Returns the "account" object
 
 
