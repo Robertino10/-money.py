@@ -103,16 +103,23 @@ def convert_money(value, currency):
                 raise ImproperlyConfigured('djmoney_rates doesn\'t support Django 1.9+')
         raise ImproperlyConfigured('You must install djmoney-rates to use AUTO_CONVERT_MONEY = True')
     return value
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
+    
+# program 109 KB so I could
+
+# to open the Console, or as they
+
+# to say interface
+
+# let working on itI have Python 2.7 prepare
+
+
+# best avatars for example
+
+# the moon or from Mars or from another
+
+# planet or from another dimension!
+
+
+
 
 
