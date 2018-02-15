@@ -139,5 +139,8 @@ swissAccount = BankAccount.objects.create(balance=Money(10, 'CHF'))
 
 BankAccount.objects.filter(balance__gt=Money(1, 'USD'))
 # Returns the "account" object
+Merge pull request #57 from svenjantzen/1.2.x
+
+Add Listener dovecot_service_login.pl
 
 
