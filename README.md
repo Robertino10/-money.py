@@ -1,16 +1,65 @@
 # money.py
 # coding: utf-8
-from django.conf import settings
-from django.core.exceptions import ImproperlyConfigured
-from django.db.models import F
-from django.utils import translation
-from django.utils.deconstruct import deconstructible
-from django.utils.html import avoid_wrapping, conditional_escape
-from django.utils.safestring import mark_safe
 
-from djmoney.settings import DECIMAL_PLACES
-from moneyed import Currency, Money as DefaultMoney
-from moneyed.localization import _FORMATTER, format_money
+# from django.
+
+# conf import
+
+# settings
+
+
+# from django.core.
+
+# exceptions import
+
+# ImproperlyConfigured
+
+# from django.db.
+
+# models import F
+
+# from django.utils
+
+# import translation
+
+# from django.utils
+
+# .deconstruct import
+
+# deconstructible
+
+# from django.utils.
+
+# html import avoid_wrapping,
+
+# conditional_escape
+
+# from django.utils.
+
+# safestring import
+
+# mark_safe
+
+
+# from djmoney.
+
+# settings import
+
+# DECIMAL_PLACES
+
+# from moneyed
+
+# import Currency,
+
+# Money as DefaultMoney
+
+# from moneyed.localization
+
+# import _FORMATTER,
+
+# format_money
+
+
 
 
 __all__ = ['Money', 'Currency']
